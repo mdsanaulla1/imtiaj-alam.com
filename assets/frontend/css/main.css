@@ -632,7 +632,8 @@ body {
 }
 
 .wrapper .social_header li a i {
-    font-size: 40px;
+    font-size: 30px;
+    color: #19A337;
 }
 
 .nav_menu {
@@ -737,7 +738,7 @@ body {
 }
 
 .side_menu ul li a:hover{
-    background: #1172ef;
+    background: #19A337;
     color: #ffffff;
 }
 
