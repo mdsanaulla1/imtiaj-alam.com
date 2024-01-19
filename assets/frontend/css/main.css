@@ -583,6 +583,7 @@ body {
     background-image: url("https://imtiaj-alam.com/assets/uploads/banner/banner.jpeg");
     height: 275px;
     width: 1112px;
+    background-size: cover;
 }
 
 
@@ -701,8 +702,8 @@ body {
 }
 
 .content_wrap .body_content img {
-    width: 58%;
-    float: left;
+    width: 100%;
+    /* float: middle; */
     margin-right: 12px;
 }
 
