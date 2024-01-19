@@ -266,23 +266,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.wrapper .header_section {
+.wrapper .header_section2 {
     position: relative;
 
 }
+.wrapper .header_section1 {
+  position: relative;
 
-/* .wrapper .header_section:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background: rgba(0 0 0);
-    opacity: .7;
-} */
+}
 
-.wrapper .header_section h1 {
+.wrapper .header_section2 h1 {
     position: absolute;
     font-size: 24px;
     color: #fff;
@@ -291,13 +284,32 @@ body {
     padding: 20px;
 
 }
-.wrapper .header_section h2 {
+.wrapper .header_section2 h2 {
   position: absolute;
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   margin-bottom: 0;
   padding: 20px;
+
+}
+
+.wrapper .header_section1 h1 {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 20px;
+
+}
+.wrapper .header_section1 h2 {
+position: absolute;
+font-size: 20px;
+color: #fff;
+font-weight: 700;
+margin-bottom: 0;
+padding: 20px;
 
 }
 
@@ -578,16 +590,16 @@ body {
     /* border-radius: 10px; */
 }
 
-.wrapper .header_section {
+.wrapper .header_section2 {
     position: relative;
-    background-image: url("https://imtiaj-alam.com/assets/uploads/banner/banner.jpeg");
+    background-image: url("https://i.ibb.co/7GLHH1n/banner.jpg");
     height: 275px;
-    width: 1112px;
+    width: 556px;
     background-size: cover;
 }
 
 
-.wrapper .header_section h1 {
+.wrapper .header_section2 h1 {
     position: absolute;
     font-size: 24px;
     color: #fff;
@@ -597,17 +609,49 @@ body {
 
 }
 
-.wrapper .header_section img {
+.wrapper .header_section2 img {
     width: 100%;
 }
-.wrapper .header_section::before {
+.wrapper .header_section2::before {
   position: absolute;
   content: '';
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.3);
+  /* background: rgba(0,0,0,0.3); */
+}
+
+.wrapper .header_section1 {
+  position: relative;
+  background-image: url("https://t4.ftcdn.net/jpg/01/94/56/27/360_F_194562791_Fm1FI68WrEin8OjfKHEr2g0wXa5EoXtu.jpg");
+  height: 275px;
+  width: 556px;
+  background-size: cover;
+}
+
+
+.wrapper .header_section1 h1 {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0;
+  /* padding: 2px 10px; */
+
+}
+
+.wrapper .header_section1 img {
+  width: 100%;
+}
+.wrapper .header_section1::before {
+position: absolute;
+content: '';
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.3);
 }
 
 .wrapper .social_header {
@@ -690,6 +734,9 @@ body {
 .nav_menu ul li ul li a:hover {
   background: #0d7023;
 }
+/* .navli a:hover {
+  background: #0d7023 !important;
+} */
 
 .nav_menu ul li:hover ul {
   opacity: 1;
@@ -703,8 +750,8 @@ body {
 }
 
 .content_wrap .body_content img {
-    width: 100%;
-    /* float: middle; */
+    width: 55%;
+    float: left;
     margin-right: 12px;
 }
 
@@ -713,6 +760,7 @@ body {
     font-size: 16px;
     line-height: 25px;
     color: #4c4c4c;
+    width: 100%;
 
 }
 
@@ -745,6 +793,52 @@ body {
 .aboutImg{
     width: 18% !important;
     float: left !important;
+}
+.img-fluid {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-bottom: 50px;
+  object-fit: cover;
+  /* cursor: pointer; */
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 700px;
+}
+
+.mySlides {
+  display: none;
 }
 
 
@@ -831,14 +925,27 @@ img-100 {
 	  display: block;
 	}
 
-  .wrapper .header_section h1 {
+  .wrapper .header_section2 h1 {
     font-size: 16px;
     margin-bottom: 0;
     padding: 14px;
     line-height: 24px;
   }
 
-  .wrapper .header_section img {
+  .wrapper .header_section2 img {
+    height: 80px;
+    margin-bottom: 0;
+  }
+
+  
+  .wrapper .header_section1 h1 {
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 14px;
+    line-height: 24px;
+  }
+
+  .wrapper .header_section1 img {
     height: 80px;
     margin-bottom: 0;
   }
