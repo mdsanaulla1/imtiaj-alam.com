@@ -742,6 +742,12 @@ body {
     color: #ffffff;
 }
 
+.aboutImg{
+    width: 18% !important;
+    float: left !important;
+}
+
+
 .side_image img{
     width: 100%;
 }
