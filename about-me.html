@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="English">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#header_nav").load("header_nav.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper" style="margin-top: 0px; margin-bottom: 0px;">
+        <div class="container">
+            <div id="header_nav"></div>
+
+            <div class="row content_wrap">
+                <div class="col-xs-12 col-md-12">
+                    <div class="body_content">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>About Me</h5>
+                            </div>
+
+                            <div class="card-body aboutcard">
+                                <img src="favicon_io/favicon.jpeg" alt="Image" class="aboutImg">
+                                <p><strong>Name:</strong> Imtiaj Alam</p>
+                                <p><strong>Contact:</strong> +8801796863414</p>
+                                <p><strong>Email:</strong> imtiajalam0530@gmail.com</p>
+                                <p><strong>Website:</strong> <a href="https://imtiaj-alam.com">https://imtiaj-alam.com</a></p>
+                                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/imtiajalamrimo/" target="_blank">linkedin.com/in/imtiajalamrimo</a></p>
+                                <p><strong>Address:</strong> House no.10440, Road 1, Uludaha, Turag, Dhaka-1230.</p>
+                            </div>
+                        </div>
+                    </div><!-- /.body_content -->
+                </div>
+                <!-- /.col -->
+            </div><!-- /.row -->
+
+            <div class="row footer_section">
+                <div class="col-md-12 col-xs-12">
+                    <p>&copy; 2024 Imtiaj Alam</p>
+                </div>
+            </div><!-- /.footer -->
+        </div><!-- /.container -->
+    </div><!-- /.wrapper -->
+
+    <script src="assets/frontend/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/frontend/js/bootstrap.min.js"></script>
+    <script src="assets/frontend/js/slick.js"></script>
+    <script src="assets/frontend/js/mobile-menu.js"></script>
+    <script src="assets/frontend/js/main.js"></script>
+    <script src="../www.google-analytics.com/analytics.js" async></script>
+    <script src="../cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="../cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // data-tables
+            $('#dataTbl').DataTable();
+        });
+    </script>
+</body>
+
+</html>
