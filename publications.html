@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="English">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#header_nav").load("header_nav.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper" style="margin-top: 0px; margin-bottom: 0px;">
+        <div class="container">
+            <div id="header_nav"></div>
+
+            <div class="row content_wrap">
+                <div class="col-xs-12 col-md-12">
+                    <div class="body_content">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Publications</h5>
+                            </div>
+
+                            <div class="card-body aboutcard">
+                                <p>
+                                    <strong>Publication 1:</strong><br>
+                                    Md. Rocky, Mamunur Rashid, Imtiaj Alam, Farhan Tahmid, Mahamad Jabed and Md. Belal Hossain. Antifungal potentiality of selected micronutrients, botanicals and fungicides against purple blotch complex pathogens of onion. J Pharmacogn Phytochem 2023;12(6):227-234. DOI: 10.22271/phyto.2023.v12.i6c.14786 (acted as a co-author)
+                                </p>
+
+                                <!-- Add more publications in a similar format if needed -->
+                            </div>
+                        </div>
+                    </div><!-- /.body_content -->
+                </div>
+                <!-- /.col -->
+            </div><!-- /.row -->
+
+            <div class="row footer_section">
+                <div class="col-md-12 col-xs-12">
+                    <p>&copy; 2024 Imtiaj Alam</p>
+                </div>
+            </div><!-- /.footer -->
+        </div><!-- /.container -->
+    </div><!-- /.wrapper -->
+
+    <script src="assets/frontend/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/frontend/js/bootstrap.min.js"></script>
+    <script src="assets/frontend/js/slick.js"></script>
+    <script src="assets/frontend/js/mobile-menu.js"></script>
+    <script src="assets/frontend/js/main.js"></script>
+    <script src="../www.google-analytics.com/analytics.js" async></script>
+    <script src="../cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="../cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // data-tables
+            $('#dataTbl').DataTable();
+        });
+    </script>
+</body>
+
+</html>
