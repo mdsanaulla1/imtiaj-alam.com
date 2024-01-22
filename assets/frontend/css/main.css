@@ -592,9 +592,15 @@ body {
 
 .wrapper .container {
     background: #fff;
-    padding: 10px 14px 0;
+    padding: 5px 14px 0;
     margin: 0px auto;
     /* border-radius: 10px; */
+}
+.wrapper .container2 {
+  background: #fff;
+  padding: 5px 0 0;
+  margin: 0px auto;
+  /* border-radius: 10px; */
 }
 
 .wrapper .header_section2 {
